@@ -1,0 +1,61 @@
+about:
+  description: 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
+  license: MIT
+  homepage: https://yazi-rs.github.io
+  head: a6f4b78
+  archived: false
+  latestVersion: nightly
+  collectedAt: 2026-09-01T05:35:36Z
+timeline:
+  created: 2023-07-08
+  lastCommit: 2026-09-01
+  lastRelease: 2024-08-07
+popularity:
+  star: 41845
+  watcher: 101
+  fork: 999
+  release: 32
+  contributor: 182
+  pullRequest: 222
+  issue: 1970
+language:
+  Rust: 1953558
+  Lua: 99345
+  JavaScript: 13708
+  Nix: 6811
+  Shell: 1042
+  RenderScript: 1
+totalLine: 2074465
+recent:
+  last30d:
+    since: 2026-08-02
+    release: 1
+    mergedPR: 37
+    openPR: 2
+    closedIssue: 46
+    openIssue: 2
+    commit: 38
+  last90d:
+    since: 2026-06-03
+    release: 1
+    mergedPR: 97
+    openPR: 5
+    closedIssue: 122
+    openIssue: 12
+    commit: 100
+  last180d:
+    since: 2026-03-05
+    release: 2
+    mergedPR: 159
+    openPR: 6
+    closedIssue: 254
+    openIssue: 21
+    commit: 168
+  last360d:
+    since: 2025-09-06
+    release: 5
+    mergedPR: 322
+    openPR: 9
+    closedIssue: 510
+    openIssue: 30
+    commit: 339
