@@ -5,19 +5,19 @@ about:
   head: 5f901b8
   archived: false
   latestVersion: "nightly"
-  collectedAt: 2026-09-07T06:02:10Z
+  collectedAt: 2026-09-07T18:33:36Z
 timeline:
   created: 2023-07-08
   lastCommit: 2026-09-01
   lastRelease: 2024-08-07
 popularity:
-  star: 41994
+  star: 42022
   watcher: 103
   fork: 1010
   release: 33
   contributor: 183
   pullRequest: 1518
-  issue: 1982
+  issue: 1983
 language:
   Rust: 1953743
   Lua: 99345
@@ -33,7 +33,7 @@ recent:
     mergedPR: 35
     openPR: 1
     closedIssue: 49
-    openIssue: 6
+    openIssue: 7
     commit: 33
   last60d:
     since: 2026-07-09
@@ -41,7 +41,7 @@ recent:
     mergedPR: 67
     openPR: 2
     closedIssue: 93
-    openIssue: 10
+    openIssue: 11
     commit: 69
   last90d:
     since: 2026-06-09
@@ -49,7 +49,7 @@ recent:
     mergedPR: 95
     openPR: 5
     closedIssue: 125
-    openIssue: 16
+    openIssue: 17
     commit: 97
   last180d:
     since: 2026-03-11
@@ -57,7 +57,7 @@ recent:
     mergedPR: 158
     openPR: 6
     closedIssue: 254
-    openIssue: 25
+    openIssue: 26
     commit: 163
   last360d:
     since: 2025-09-12
@@ -65,7 +65,7 @@ recent:
     mergedPR: 323
     openPR: 9
     closedIssue: 509
-    openIssue: 33
+    openIssue: 34
     commit: 335
   last720d:
     since: 2024-09-17
@@ -73,18 +73,18 @@ recent:
     mergedPR: 744
     openPR: 14
     closedIssue: 1184
-    openIssue: 47
+    openIssue: 48
     commit: 777
 total:
   release: 33
   mergedPR: 1294
   openPR: 15
   closedIssue: 1927
-  openIssue: 55
+  openIssue: 56
   commit: 1526
 ---
 path: /home/runner/.x-repo/github.com/sxyazi/yazi
-collectedAt: 2026-09-07T06:02:13Z
+collectedAt: 2026-09-07T18:33:38Z
 loc:
   Rust:
     code: 61642
@@ -140,7 +140,7 @@ total:
 
 ---
 eget:
-  collectedAt: 2026-09-07T06:02:14+00:00
+  collectedAt: 2026-09-07T18:33:39+00:00
   platform:
     darwin/arm64:
       name:  yazi-aarch64-apple-darwin.zip
