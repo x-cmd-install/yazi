@@ -5,13 +5,13 @@ about:
   head: 8c2b5f8
   archived: false
   latestVersion: "nightly"
-  collectedAt: 2026-09-08T03:09:16Z
+  collectedAt: 2026-09-08T05:50:39Z
 timeline:
   created: 2023-07-08
   lastCommit: 2026-09-08
   lastRelease: 2024-08-07
 popularity:
-  star: 42030
+  star: 42036
   watcher: 103
   fork: 1010
   release: 33
@@ -84,7 +84,7 @@ total:
   commit: 1527
 ---
 path: /home/runner/.x-repo/github.com/sxyazi/yazi
-collectedAt: 2026-09-08T03:09:18Z
+collectedAt: 2026-09-08T05:50:42Z
 loc:
   Rust:
     code: 62073
