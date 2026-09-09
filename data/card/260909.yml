@@ -1,0 +1,145 @@
+about:
+  description: "💥 Blazing fast terminal file manager written in Rust, based on async I/O."
+  license: MIT
+  homepage: https://yazi-rs.github.io
+  head: 8ebf930
+  archived: false
+  latestVersion: "nightly"
+  latestRelease: "v26.9.1"
+  latestPrerelease: "nightly"
+  collectedAt: 2026-09-09T06:13:44Z
+timeline:
+  created: 2023-07-08
+  lastCommit: 2026-09-08
+  lastVersion: 2024-08-07
+  lastRelease: 2026-09-01
+  lastPrerelease: 2024-08-07
+popularity:
+  star: 42066
+  watcher: 103
+  fork: 1010
+  release: 33
+  contributor: 183
+  pullRequest: 1521
+  issue: 1986
+language:
+  Rust: 1983593
+  Lua: 104581
+  JavaScript: 13708
+  Nix: 6811
+  Shell: 1042
+  RenderScript: 1
+totalBytes: 2109736
+recent:
+  last30d:
+    since: 2026-08-10
+    release: 2
+    mergedPR: 36
+    openPR: 1
+    closedIssue: 45
+    openIssue: 8
+    commit: 35
+  last60d:
+    since: 2026-07-11
+    release: 2
+    mergedPR: 69
+    openPR: 2
+    closedIssue: 92
+    openIssue: 12
+    commit: 71
+  last90d:
+    since: 2026-06-11
+    release: 2
+    mergedPR: 93
+    openPR: 4
+    closedIssue: 126
+    openIssue: 17
+    commit: 99
+  last180d:
+    since: 2026-03-13
+    release: 3
+    mergedPR: 158
+    openPR: 6
+    closedIssue: 254
+    openIssue: 27
+    commit: 165
+  last360d:
+    since: 2025-09-14
+    release: 6
+    mergedPR: 322
+    openPR: 9
+    closedIssue: 509
+    openIssue: 35
+    commit: 337
+  last720d:
+    since: 2024-09-19
+    release: 16
+    mergedPR: 745
+    openPR: 14
+    closedIssue: 1183
+    openIssue: 49
+    commit: 779
+total:
+  release: 33
+  mergedPR: 1296
+  openPR: 15
+  closedIssue: 1929
+  openIssue: 57
+  commit: 1528
+---
+path: /home/runner/.x-repo/github.com/sxyazi/yazi
+collectedAt: 2026-09-09T06:13:46Z
+loc:
+  Rust:
+    code: 62331
+    comments: 964
+    blanks: 12276
+    files: 1269
+  Lua:
+    code: 3603
+    comments: 93
+    blanks: 646
+    files: 57
+  Toml:
+    code: 3369
+    comments: 254
+    blanks: 427
+    files: 39
+  JavaScript:
+    code: 400
+    comments: 0
+    blanks: 56
+    files: 2
+  Json:
+    code: 269
+    comments: 0
+    blanks: 0
+    files: 3
+  Nix:
+    code: 265
+    comments: 3
+    blanks: 36
+    files: 4
+  Yaml:
+    code: 142
+    comments: 17
+    blanks: 6
+    files: 1
+  Sh:
+    code: 18
+    comments: 4
+    blanks: 8
+    files: 2
+  Markdown:
+    code: 0
+    comments: 2036
+    blanks: 433
+    files: 37
+total:
+  code: 70398
+  comments: 3578
+  blanks: 13898
+  files: 1414
+---
+
+---
