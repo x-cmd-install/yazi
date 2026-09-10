@@ -1,52 +1,52 @@
 # yazi
 
-[中文版本](./README.cn.md)
+[English version](./README.md)
 
 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
 
-![yazi](https://repo.x-cmd.io/yazi.svg)
+![yazi](https://repo.x-cmd.io/yazi.svg?lang=zh)
 
-## Install
+## 安装
 
 ```sh
 x install yazi
 ```
 
-## Code insight
+## 代码规模
 
-Total: **70,451** lines of code across **1371** files in the top 5 languages.
+合计: **70,451** 行代码（覆盖前 5 种语言、共 **1371** 个文件）。
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
 | Rust | 62,381 | 965 | 12,285 | 1270 |
 | Lua | 3,605 | 93 | 646 | 57 |
 | Toml | 3,371 | 254 | 427 | 39 |
 | JavaScript | 400 | 0 | 56 | 2 |
 | Json | 269 | 0 | 0 | 3 |
 
-## Source
+## 源代码
 
-- **Upstream**: <https://github.com/sxyazi/yazi>
-- **Homepage**: <https://yazi-rs.github.io>
-- **License**: MIT
+- **上游仓库**: <https://github.com/sxyazi/yazi>
+- **官网**: <https://yazi-rs.github.io>
+- **许可证**: MIT
 
-## Release
+## 发布
 
-- **Latest**: `nightly` (2026-09-01)
-- **Last commit**: 2026-09-10
-- **Assets in release**: 17
+- **最新版本**: `nightly` (2026-09-01)
+- **最近提交**: 2026-09-10
+- **Release 含资产**: 17 个
 
-## Popularity
+## 流行度
 
-- **Stars**: 42,103 · **Forks**: 1,011 · **Open issues**: 1,987 · **Contributors**: 183
+- **Star**: 42,103 · **Fork**: 1,011 · **开放 issue**: 1,987 · **贡献者**: 183
 
-## Totals (cumulative)
+## 累计统计
 
-- **Releases**: 33 · **Merged PRs**: 1298 · **Open PRs**: 15 · **Closed issues**: 1934 · **Open issues**: 53 · **Commits**: 1530
+- **发布数**: 33 · **已合并 PR**: 1298 · **开放 PR**: 15 · **已关闭 issue**: 1934 · **开放 issue**: 53 · **提交数**: 1530
 
-## Recent activity
+## 最近活动
 
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 2 | 37 | 1 | 45 | 5 | 37 |
 | last60d | 2026-07-12 | 2 | 70 | 2 | 95 | 7 | 73 |
@@ -55,10 +55,10 @@ Total: **70,451** lines of code across **1371** files in the top 5 languages.
 | 360d | 2025-09-15 | 6 | 323 | 9 | 514 | 31 | 339 |
 | last720d | 2024-09-20 | 16 | 745 | 14 | 1186 | 45 | 780 |
 
-## Release assets
+## Release 资产
 
-| Asset | Size | Target |
-|-------|-----:|--------|
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
 | [yazi-aarch64-apple-darwin.zip](https://github.com/sxyazi/yazi/releases/download/v26.9.1/yazi-aarch64-apple-darwin.zip) | 11.9 MiB | `native/darwin/arm64` |
 | [yazi-aarch64-pc-windows-msvc.zip](https://github.com/sxyazi/yazi/releases/download/v26.9.1/yazi-aarch64-pc-windows-msvc.zip) | 15.3 MiB | `native/win/arm64` |
 | [yazi-aarch64-unknown-linux-gnu.deb](https://github.com/sxyazi/yazi/releases/download/v26.9.1/yazi-aarch64-unknown-linux-gnu.deb) | 8.8 MiB | `native/linux/arm64/glibc` |
@@ -77,12 +77,12 @@ Total: **70,451** lines of code across **1371** files in the top 5 languages.
 | [yazi-x86_64-unknown-linux-musl.deb](https://github.com/sxyazi/yazi/releases/download/v26.9.1/yazi-x86_64-unknown-linux-musl.deb) | 10.2 MiB | `native/linux/x64/musl` |
 | [yazi-x86_64-unknown-linux-musl.zip](https://github.com/sxyazi/yazi/releases/download/v26.9.1/yazi-x86_64-unknown-linux-musl.zip) | 14.0 MiB | `native/linux/x64/musl` |
 
-## Distribution status
+## 发行版状态
 
-Reported by **101** distros on [repology.org](https://repology.org/project/yazi). **34** are ✅ on the latest upstream release, **50** are ⚠️ on an older version.
+在 [repology.org](https://repology.org/project/yazi) 上共有 **101** 个发行版报告此项目。**34** 个 ✅ 已是最新上游版本，**50** 个 ⚠️ 使用旧版本。
 
-| Distro | Version | Status |
-|--------|---------|--------|
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
 | Arch | `26.9.1` | ✅ latest |
 | Homebrew | `26.9.1` | ✅ latest |
 | Nix unstable | `26.9.1` | ✅ latest |
@@ -90,13 +90,13 @@ Reported by **101** distros on [repology.org](https://repology.org/project/yazi)
 | Alpine edge | `26.9.1` | ✅ latest |
 | openSUSE Tumbleweed | `26.8.15` | ⚠️ outdated |
 
-## Improve this data
+## 改进这些数据
 
-Install metadata for yazi lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `yazi` is missing, out of date, or installs incorrectly, please open an issue or PR there:
+yazi 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `yazi` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
 
-- **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/yazi.yml> (or whichever path the index uses)
+- **提交 issue**: <https://github.com/x-cmd/install/issues/new>
+- **编辑包条目**: <https://github.com/x-cmd/install/edit/main/yazi.yml>（或索引实际使用的路径）
 
-The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
+本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T21:50:23Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T21:50:24Z._
