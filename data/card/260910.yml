@@ -7,7 +7,7 @@ about:
   latestVersion: "nightly"
   latestRelease: "v26.9.1"
   latestPrerelease: "nightly"
-  collectedAt: 2026-09-10T21:50:15Z
+  collectedAt: 2026-09-10T22:05:51Z
 timeline:
   created: 2023-07-08
   lastCommit: 2026-09-10
@@ -88,7 +88,7 @@ total:
   commit: 1530
 ---
 path: /home/runner/.x-repo/github.com/sxyazi/yazi
-collectedAt: 2026-09-10T21:50:17Z
+collectedAt: 2026-09-10T22:05:53Z
 loc:
   Rust:
     code: 62381

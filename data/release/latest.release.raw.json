@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 13680649,
       "digest": "sha256:02807f08d6b589b65b7516a4e259d83f5995d7a23bb12b3a155141385b370b3a",
-      "download_count": 760,
+      "download_count": 761,
       "created_at": "2026-09-01T08:46:06Z",
       "updated_at": "2026-09-01T08:46:08Z",
       "browser_download_url": "https://github.com/sxyazi/yazi/releases/download/v26.9.1/yazi-aarch64-unknown-linux-gnu.zip"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 10476564,
       "digest": "sha256:331d6247c0a0fd549f14cd599a928a529b8b22eded1bb1f61a518376c7621b45",
-      "download_count": 1160,
+      "download_count": 1163,
       "created_at": "2026-09-01T08:46:06Z",
       "updated_at": "2026-09-01T08:46:08Z",
       "browser_download_url": "https://github.com/sxyazi/yazi/releases/download/v26.9.1/yazi-x86_64-unknown-linux-gnu.deb"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 14397810,
       "digest": "sha256:a02fe91d3304294048c681f010f1100856872a4e98ecf6927328e888d40a6ad2",
-      "download_count": 4734,
+      "download_count": 4741,
       "created_at": "2026-09-01T08:46:06Z",
       "updated_at": "2026-09-01T08:46:08Z",
       "browser_download_url": "https://github.com/sxyazi/yazi/releases/download/v26.9.1/yazi-x86_64-unknown-linux-gnu.zip"
@@ -643,7 +643,7 @@
       "state": "uploaded",
       "size": 14722461,
       "digest": "sha256:9b9c39decccf8cb0ff53a7d637d38f8a79d93bbd0099f4ea9c619ef6bb392f5d",
-      "download_count": 2682,
+      "download_count": 2683,
       "created_at": "2026-09-01T08:46:06Z",
       "updated_at": "2026-09-01T08:46:09Z",
       "browser_download_url": "https://github.com/sxyazi/yazi/releases/download/v26.9.1/yazi-x86_64-unknown-linux-musl.zip"
