@@ -38,7 +38,7 @@ Total: **70,451** lines of code across **1371** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 42,108 · **Forks**: 1,011 · **Open issues**: 1,987 · **Contributors**: 183
+- **Stars**: 42,122 · **Forks**: 1,012 · **Open issues**: 1,987 · **Contributors**: 183
 
 ## Totals (cumulative)
 
@@ -99,4 +99,4 @@ Install metadata for yazi lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T06:01:08Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T18:47:25Z._
