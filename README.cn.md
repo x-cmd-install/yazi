@@ -38,7 +38,7 @@ x install yazi
 
 ## 流行度
 
-- **Star**: 42,148 · **Fork**: 1,015 · **开放 issue**: 1,992 · **贡献者**: 183
+- **Star**: 42,173 · **Fork**: 1,017 · **开放 issue**: 1,992 · **贡献者**: 183
 
 ## 累计统计
 
@@ -48,12 +48,12 @@ x install yazi
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 2 | 31 | 1 | 44 | 4 | 38 |
-| last60d | 2026-07-15 | 2 | 67 | 2 | 97 | 5 | 74 |
-| 90d | 2026-06-15 | 2 | 94 | 4 | 136 | 11 | 102 |
-| last180d | 2026-03-17 | 3 | 159 | 6 | 257 | 20 | 168 |
-| 360d | 2025-09-18 | 6 | 321 | 9 | 519 | 29 | 340 |
-| last720d | 2024-09-23 | 16 | 745 | 14 | 1188 | 42 | 777 |
+| 30d | 2026-08-15 | 2 | 28 | 1 | 42 | 4 | 27 |
+| last60d | 2026-07-16 | 2 | 66 | 2 | 96 | 5 | 71 |
+| 90d | 2026-06-16 | 2 | 94 | 4 | 134 | 11 | 91 |
+| last180d | 2026-03-18 | 3 | 156 | 5 | 256 | 19 | 160 |
+| 360d | 2025-09-19 | 6 | 320 | 9 | 519 | 29 | 329 |
+| last720d | 2024-09-24 | 16 | 745 | 14 | 1188 | 42 | 777 |
 
 ## Release 资产
 
@@ -77,19 +77,6 @@ x install yazi
 | [yazi-x86_64-unknown-linux-musl.deb](https://github.com/sxyazi/yazi/releases/download/v26.9.1/yazi-x86_64-unknown-linux-musl.deb) | 10.2 MiB | `native/linux/x64/musl` |
 | [yazi-x86_64-unknown-linux-musl.zip](https://github.com/sxyazi/yazi/releases/download/v26.9.1/yazi-x86_64-unknown-linux-musl.zip) | 14.0 MiB | `native/linux/x64/musl` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/yazi) 上共有 **101** 个发行版报告此项目。**34** 个 ✅ 已是最新上游版本，**50** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Arch | `26.9.1` | ✅ latest |
-| Homebrew | `26.9.1` | ✅ latest |
-| Nix unstable | `26.9.1` | ✅ latest |
-| Void | `26.1.22` | ⚠️ outdated |
-| Alpine edge | `26.9.1` | ✅ latest |
-| openSUSE Tumbleweed | `26.8.15` | ⚠️ outdated |
-
 ## 改进这些数据
 
 yazi 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `yazi` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -99,4 +86,4 @@ yazi 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T06:19:43Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T06:32:35Z._

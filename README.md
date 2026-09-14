@@ -38,7 +38,7 @@ Total: **70,476** lines of code across **1374** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 42,148 · **Forks**: 1,015 · **Open issues**: 1,992 · **Contributors**: 183
+- **Stars**: 42,173 · **Forks**: 1,017 · **Open issues**: 1,992 · **Contributors**: 183
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **70,476** lines of code across **1374** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 2 | 31 | 1 | 44 | 4 | 38 |
-| last60d | 2026-07-15 | 2 | 67 | 2 | 97 | 5 | 74 |
-| 90d | 2026-06-15 | 2 | 94 | 4 | 136 | 11 | 102 |
-| last180d | 2026-03-17 | 3 | 159 | 6 | 257 | 20 | 168 |
-| 360d | 2025-09-18 | 6 | 321 | 9 | 519 | 29 | 340 |
-| last720d | 2024-09-23 | 16 | 745 | 14 | 1188 | 42 | 777 |
+| 30d | 2026-08-15 | 2 | 28 | 1 | 42 | 4 | 27 |
+| last60d | 2026-07-16 | 2 | 66 | 2 | 96 | 5 | 71 |
+| 90d | 2026-06-16 | 2 | 94 | 4 | 134 | 11 | 91 |
+| last180d | 2026-03-18 | 3 | 156 | 5 | 256 | 19 | 160 |
+| 360d | 2025-09-19 | 6 | 320 | 9 | 519 | 29 | 329 |
+| last720d | 2024-09-24 | 16 | 745 | 14 | 1188 | 42 | 777 |
 
 ## Release assets
 
@@ -77,19 +77,6 @@ Total: **70,476** lines of code across **1374** files in the top 5 languages.
 | [yazi-x86_64-unknown-linux-musl.deb](https://github.com/sxyazi/yazi/releases/download/v26.9.1/yazi-x86_64-unknown-linux-musl.deb) | 10.2 MiB | `native/linux/x64/musl` |
 | [yazi-x86_64-unknown-linux-musl.zip](https://github.com/sxyazi/yazi/releases/download/v26.9.1/yazi-x86_64-unknown-linux-musl.zip) | 14.0 MiB | `native/linux/x64/musl` |
 
-## Distribution status
-
-Reported by **101** distros on [repology.org](https://repology.org/project/yazi). **34** are ✅ on the latest upstream release, **50** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Arch | `26.9.1` | ✅ latest |
-| Homebrew | `26.9.1` | ✅ latest |
-| Nix unstable | `26.9.1` | ✅ latest |
-| Void | `26.1.22` | ⚠️ outdated |
-| Alpine edge | `26.9.1` | ✅ latest |
-| openSUSE Tumbleweed | `26.8.15` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for yazi lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `yazi` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -99,4 +86,4 @@ Install metadata for yazi lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T06:19:43Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:32:35Z._
