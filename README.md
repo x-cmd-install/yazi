@@ -4,7 +4,7 @@
 
 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
 
-[![x-cmd/install — yazi Code Quality Monitoring Repo Card](https://repo.x-cmd.io/yazi.svg)](https://x-cmd.com/install/yazi)
+[![x-cmd/install — yazi Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/yazi.svg)](https://x-cmd.com/install/yazi)
 
 ## Install
 
@@ -38,22 +38,22 @@ Total: **70,972** lines of code across **1388** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 42,346 · **Forks**: 1,022 · **Open issues**: 2,000 · **Contributors**: 183
+- **Stars**: 42,366 · **Forks**: 1,023 · **Open issues**: 2,000 · **Contributors**: 183
 
 ## Totals (cumulative)
 
-- **Releases**: 33 · **Merged PRs**: 1307 · **Open PRs**: 14 · **Closed issues**: 1953 · **Open issues**: 47 · **Commits**: 1539
+- **Releases**: 33 · **Merged PRs**: 1307 · **Open PRs**: 15 · **Closed issues**: 1953 · **Open issues**: 47 · **Commits**: 1539
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 1 | 25 | 1 | 38 | 3 | 23 |
-| last60d | 2026-07-24 | 2 | 70 | 2 | 90 | 4 | 68 |
-| 90d | 2026-06-24 | 2 | 88 | 3 | 129 | 9 | 92 |
-| last180d | 2026-03-26 | 3 | 155 | 5 | 247 | 17 | 164 |
-| 360d | 2025-09-27 | 6 | 317 | 8 | 512 | 27 | 331 |
-| last720d | 2024-10-02 | 16 | 742 | 12 | 1175 | 38 | 774 |
+| 30d | 2026-08-24 | 1 | 24 | 2 | 36 | 3 | 23 |
+| last60d | 2026-07-25 | 2 | 68 | 3 | 88 | 4 | 68 |
+| 90d | 2026-06-25 | 2 | 88 | 4 | 129 | 9 | 92 |
+| last180d | 2026-03-27 | 3 | 155 | 6 | 245 | 17 | 164 |
+| 360d | 2025-09-28 | 6 | 315 | 9 | 512 | 27 | 331 |
+| last720d | 2024-10-03 | 16 | 740 | 13 | 1174 | 38 | 773 |
 
 ## Release assets
 
@@ -86,4 +86,4 @@ Install metadata for yazi lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T06:31:36Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T06:28:19Z._
