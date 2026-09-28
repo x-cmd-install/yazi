@@ -38,22 +38,22 @@ Total: **70,972** lines of code across **1388** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 42,448 · **Forks**: 1,026 · **Open issues**: 2,004 · **Contributors**: 183
+- **Stars**: 42,464 · **Forks**: 1,029 · **Open issues**: 2,006 · **Contributors**: 183
 
 ## Totals (cumulative)
 
-- **Releases**: 33 · **Merged PRs**: 1307 · **Open PRs**: 15 · **Closed issues**: 1955 · **Open issues**: 49 · **Commits**: 1539
+- **Releases**: 33 · **Merged PRs**: 1307 · **Open PRs**: 17 · **Closed issues**: 1956 · **Open issues**: 50 · **Commits**: 1539
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-28 | 1 | 21 | 1 | 32 | 4 | 23 |
-| last60d | 2026-07-29 | 2 | 59 | 3 | 80 | 5 | 68 |
-| 90d | 2026-06-29 | 2 | 85 | 3 | 124 | 9 | 92 |
-| last180d | 2026-03-31 | 3 | 151 | 6 | 240 | 17 | 164 |
-| 360d | 2025-10-02 | 6 | 314 | 9 | 509 | 29 | 331 |
-| last720d | 2024-10-07 | 16 | 734 | 13 | 1166 | 40 | 766 |
+| 30d | 2026-08-29 | 1 | 21 | 3 | 31 | 5 | 13 |
+| last60d | 2026-07-30 | 2 | 58 | 5 | 79 | 6 | 56 |
+| 90d | 2026-06-30 | 2 | 85 | 5 | 124 | 10 | 89 |
+| last180d | 2026-04-01 | 3 | 151 | 8 | 239 | 18 | 154 |
+| 360d | 2025-10-03 | 6 | 311 | 11 | 510 | 30 | 327 |
+| last720d | 2024-10-08 | 16 | 733 | 15 | 1166 | 41 | 765 |
 
 ## Release assets
 
@@ -86,4 +86,4 @@ Install metadata for yazi lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260927.yml` · 2026-09-27T06:25:11Z._
+_Snapshot: `data/card/260928.yml` · 2026-09-28T06:39:18Z._
