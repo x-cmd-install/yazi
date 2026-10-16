@@ -14,13 +14,13 @@ x install yazi
 
 ## Code insight
 
-Total: **72,864** lines of code across **1432** files in the top 5 languages.
+Total: **73,885** lines of code across **1448** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 65,274 | 1,023 | 12,800 | 1329 |
+| Rust | 66,291 | 1,081 | 13,077 | 1345 |
 | Lua | 3,764 | 93 | 671 | 59 |
-| Toml | 3,400 | 254 | 433 | 39 |
+| Toml | 3,404 | 254 | 433 | 39 |
 | Nix | 265 | 3 | 36 | 4 |
 | Yaml | 142 | 17 | 6 | 1 |
 
@@ -33,27 +33,27 @@ Total: **72,864** lines of code across **1432** files in the top 5 languages.
 ## Release
 
 - **Latest**: `nightly` (2026-09-01)
-- **Last commit**: 2026-10-10
+- **Last commit**: 2026-10-15
 - **Assets in release**: 17
 
 ## Popularity
 
-- **Stars**: 42,823 · **Forks**: 1,052 · **Open issues**: 2,023 · **Contributors**: 185
+- **Stars**: 42,859 · **Forks**: 1,052 · **Open issues**: 2,023 · **Contributors**: 185
 
 ## Totals (cumulative)
 
-- **Releases**: 33 · **Merged PRs**: 1319 · **Open PRs**: 16 · **Closed issues**: 1970 · **Open issues**: 53 · **Commits**: 1553
+- **Releases**: 33 · **Merged PRs**: 1320 · **Open PRs**: 16 · **Closed issues**: 1971 · **Open issues**: 52 · **Commits**: 1554
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-15 | 0 | 19 | 2 | 21 | 7 | 20 |
-| last60d | 2026-08-16 | 1 | 47 | 3 | 64 | 10 | 51 |
-| 90d | 2026-07-17 | 2 | 86 | 4 | 118 | 11 | 94 |
-| last180d | 2026-04-18 | 3 | 152 | 7 | 225 | 21 | 160 |
-| 360d | 2025-10-20 | 6 | 316 | 9 | 507 | 32 | 333 |
-| last720d | 2024-10-25 | 16 | 721 | 14 | 1139 | 44 | 757 |
+| 30d | 2026-09-16 | 0 | 19 | 2 | 22 | 6 | 21 |
+| last60d | 2026-08-17 | 1 | 46 | 3 | 63 | 9 | 52 |
+| 90d | 2026-07-18 | 2 | 87 | 4 | 119 | 10 | 95 |
+| last180d | 2026-04-19 | 3 | 151 | 7 | 225 | 20 | 161 |
+| 360d | 2025-10-21 | 6 | 316 | 9 | 506 | 31 | 334 |
+| last720d | 2024-10-26 | 16 | 720 | 14 | 1138 | 43 | 755 |
 
 ## Release assets
 
@@ -86,4 +86,4 @@ Install metadata for yazi lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261015.yml` · 2026-10-15T05:42:33Z._
+_Snapshot: `data/card/261016.yml` · 2026-10-16T05:36:39Z._
