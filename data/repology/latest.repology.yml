@@ -9,18 +9,6 @@
   summary: Blazing fast terminal file manager written in Rust, based on async I/O
   licenses:
     - MIT
-- repo: aosc
-  srcname: app-utils/yazi
-  binname: yazi
-  visiblename: yazi
-  version: 26.9.1
-  origversion: null
-  status: newest
-  summary: A file manager for the terminal
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - utils
 - repo: aerynos
   srcname: yazi
   visiblename: yazi
@@ -95,6 +83,18 @@
     - matthias@ahouansou.cz
   licenses:
     - MIT
+- repo: aosc
+  srcname: app-utils/yazi
+  binname: yazi
+  visiblename: yazi
+  version: 26.9.1
+  origversion: null
+  status: newest
+  summary: A file manager for the terminal
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - utils
 - repo: alpine_3_22
   subrepo: community
   srcname: yazi
@@ -1185,6 +1185,16 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
+- repo: starkos
+  subrepo: extra
+  srcname: yazi
+  visiblename: yazi
+  version: 26.9.1
+  origversion: 26.9.1-1
+  status: newest
+  summary: Blazing fast terminal file manager written in Rust, based on async I/O
+  maintainers:
+    - starkos@disroot.org
 - repo: t2
   srcname: yazi
   visiblename: yazi
