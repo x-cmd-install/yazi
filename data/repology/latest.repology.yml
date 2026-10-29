@@ -1,14 +1,3 @@
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: yazi
-  binname: yazi
-  visiblename: yazi
-  version: 26.9.1
-  origversion: 26.9.1-2
-  status: newest
-  summary: Blazing fast terminal file manager written in Rust, based on async I/O
-  licenses:
-    - MIT
 - repo: aerynos
   srcname: yazi
   visiblename: yazi
@@ -83,18 +72,6 @@
     - matthias@ahouansou.cz
   licenses:
     - MIT
-- repo: aosc
-  srcname: app-utils/yazi
-  binname: yazi
-  visiblename: yazi
-  version: 26.9.1
-  origversion: null
-  status: newest
-  summary: A file manager for the terminal
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - utils
 - repo: alpine_3_22
   subrepo: community
   srcname: yazi
@@ -225,15 +202,6 @@
     - hannes@hannesbraun.net
   licenses:
     - MIT
-- repo: scoop
-  subrepo: main
-  binname: yazi
-  visiblename: yazi
-  version: 26.9.1
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
 - repo: alpine_3_24
   subrepo: community
   srcname: yazi
@@ -297,6 +265,17 @@
   summary: Bash completions for yazi
   maintainers:
     - hannes@hannesbraun.net
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: yazi
+  binname: yazi-fishcomp
+  visiblename: yazi-fishcomp
+  version: 26.9.1
+  origversion: 26.9.1-r0
+  status: newest
+  summary: Terminal file manager (fish completions)
   licenses:
     - MIT
 - repo: alpine_edge
@@ -389,6 +368,18 @@
     - MIT
   categories:
     - File tools
+- repo: aosc
+  srcname: app-utils/yazi
+  binname: yazi
+  visiblename: yazi
+  version: 26.9.1
+  origversion: null
+  status: newest
+  summary: A file manager for the terminal
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - utils
 - repo: arch
   subrepo: extra
   srcname: yazi
@@ -454,17 +445,6 @@
   origversion: 26.9.1-r0
   status: newest
   summary: Terminal file manager (documentation)
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: yazi
-  binname: yazi-fishcomp
-  visiblename: yazi-fishcomp
-  version: 26.9.1
-  origversion: 26.9.1-r0
-  status: newest
-  summary: Terminal file manager (fish completions)
   licenses:
     - MIT
 - repo: chimera
@@ -538,20 +518,6 @@
     - ZLIB
   categories:
     - app-misc
-- repo: macports
-  srcname: sysutils/yazi
-  binname: yazi
-  visiblename: yazi
-  version: 26.9.1
-  origversion: null
-  status: newest
-  summary: Blazing fast terminal file manager written in Rust, based on async I/O.
-  maintainers:
-    - herbygillot@github
-  licenses:
-    - MIT
-  categories:
-    - sysutils
 - repo: gentoo_ovl_guru
   srcname: app-misc/yazi
   visiblename: app-misc/yazi
@@ -763,6 +729,20 @@
     - ZLIB
   categories:
     - app-misc
+- repo: macports
+  srcname: sysutils/yazi
+  binname: yazi
+  visiblename: yazi
+  version: 26.9.1
+  origversion: null
+  status: newest
+  summary: Blazing fast terminal file manager written in Rust, based on async I/O.
+  maintainers:
+    - herbygillot@github
+  licenses:
+    - MIT
+  categories:
+    - sysutils
 - repo: manjaro_stable
   subrepo: extra
   srcname: yazi
@@ -775,6 +755,17 @@
   licenses:
     - MIT
 - repo: manjaro_testing
+  subrepo: extra
+  srcname: yazi
+  binname: yazi
+  visiblename: yazi
+  version: 26.9.1
+  origversion: 26.9.1-2
+  status: newest
+  summary: Blazing fast terminal file manager written in Rust, based on async I/O
+  licenses:
+    - MIT
+- repo: manjaro_unstable
   subrepo: extra
   srcname: yazi
   binname: yazi
@@ -953,16 +944,6 @@
     - i@xyenon.bid
   licenses:
     - MIT
-- repo: slackbuilds
-  srcname: system/yazi
-  visiblename: system/yazi
-  version: 26.9.1
-  origversion: null
-  status: newest
-  maintainers:
-    - boxjake.romero@protonmail.com
-  categories:
-    - system
 - repo: nix_stable_26_05
   srcname: yazi-unwrapped
   visiblename: yazi
@@ -1066,8 +1047,8 @@
   srcname: yazi-git
   binname: yazi-git
   visiblename: yazi-git
-  version: 40a91421
-  origversion: 40a91421-1
+  version: ec4ce8f2
+  origversion: ec4ce8f2-1
   status: rolling
   summary: Blazing fast terminal file manager written in Rust
 - repo: parabola
@@ -1135,6 +1116,25 @@
     - MIT
   categories:
     - Development/Other
+- repo: scoop
+  subrepo: main
+  binname: yazi
+  visiblename: yazi
+  version: 26.9.1
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
+- repo: slackbuilds
+  srcname: system/yazi
+  visiblename: system/yazi
+  version: 26.9.1
+  origversion: null
+  status: newest
+  maintainers:
+    - boxjake.romero@protonmail.com
+  categories:
+    - system
 - repo: solus
   srcname: yazi
   binname: yazi
