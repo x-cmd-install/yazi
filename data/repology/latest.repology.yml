@@ -189,6 +189,24 @@
     - hannes@hannesbraun.net
   licenses:
     - MIT
+- repo: rosa_13
+  subrepo: contrib/release
+  srcname: yazi
+  binnames:
+    - yazi
+    - yazi-debuginfo
+    - yazi-debugsource
+  visiblename: yazi
+  version: 26.1.22
+  origversion: 26.1.22-1
+  status: outdated
+  summary: Blazing fast terminal file manager
+  maintainers:
+    - a.proklov@rosa.ru
+  licenses:
+    - MIT
+  categories:
+    - Development/Other
 - repo: alpine_3_24
   subrepo: community
   srcname: yazi
@@ -265,17 +283,6 @@
   summary: Bash completions for yazi
   maintainers:
     - hannes@hannesbraun.net
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: yazi
-  binname: yazi-fishcomp
-  visiblename: yazi-fishcomp
-  version: 26.9.1
-  origversion: 26.9.1-r0
-  status: newest
-  summary: Terminal file manager (fish completions)
   licenses:
     - MIT
 - repo: alpine_edge
@@ -450,6 +457,17 @@
 - repo: chimera
   subrepo: user
   srcname: yazi
+  binname: yazi-fishcomp
+  visiblename: yazi-fishcomp
+  version: 26.9.1
+  origversion: 26.9.1-r0
+  status: newest
+  summary: Terminal file manager (fish completions)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: yazi
   binname: yazi-nucomp
   visiblename: yazi-nucomp
   version: 26.9.1
@@ -495,6 +513,22 @@
     - nivit@freebsd.org
   categories:
     - sysutils
+- repo: nix_stable_25_11
+  srcname: yazi
+  visiblename: yazi
+  version: 25.5.31
+  origversion: null
+  status: outdated
+  summary: Blazing fast terminal file manager written in Rust, based on async I/O
+  maintainers:
+    - fedi.jamoussi@protonmail.ch
+    - khaneliman12@gmail.com
+    - linsui555@gmail.com
+    - mail@beyermatthias.de
+    - uncenter@uncenter.dev
+    - i@xyenon.bid
+  licenses:
+    - MIT
 - repo: gentoo_ovl_guru
   srcname: app-misc/yazi
   visiblename: app-misc/yazi
@@ -706,6 +740,22 @@
     - ZLIB
   categories:
     - app-misc
+- repo: nix_stable_25_11
+  srcname: yazi-unwrapped
+  visiblename: yazi
+  version: 25.5.31
+  origversion: null
+  status: outdated
+  summary: Blazing fast terminal file manager written in Rust, based on async I/O
+  maintainers:
+    - fedi.jamoussi@protonmail.ch
+    - khaneliman12@gmail.com
+    - linsui555@gmail.com
+    - mail@beyermatthias.de
+    - uncenter@uncenter.dev
+    - i@xyenon.bid
+  licenses:
+    - MIT
 - repo: liguros_develop
   srcname: app-misc/yazi
   visiblename: app-misc/yazi
@@ -896,38 +946,6 @@
     - i@xyenon.bid
   licenses:
     - MIT
-- repo: nix_stable_25_11
-  srcname: yazi
-  visiblename: yazi
-  version: 25.5.31
-  origversion: null
-  status: outdated
-  summary: Blazing fast terminal file manager written in Rust, based on async I/O
-  maintainers:
-    - fedi.jamoussi@protonmail.ch
-    - khaneliman12@gmail.com
-    - linsui555@gmail.com
-    - mail@beyermatthias.de
-    - uncenter@uncenter.dev
-    - i@xyenon.bid
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: yazi-unwrapped
-  visiblename: yazi
-  version: 25.5.31
-  origversion: null
-  status: outdated
-  summary: Blazing fast terminal file manager written in Rust, based on async I/O
-  maintainers:
-    - fedi.jamoussi@protonmail.ch
-    - khaneliman12@gmail.com
-    - linsui555@gmail.com
-    - mail@beyermatthias.de
-    - uncenter@uncenter.dev
-    - i@xyenon.bid
-  licenses:
-    - MIT
 - repo: nix_stable_26_05
   srcname: yazi
   visiblename: yazi
@@ -1098,24 +1116,6 @@
     - pkgsrc-users@netbsd.org
   categories:
     - sysutils
-- repo: rosa_13
-  subrepo: contrib/release
-  srcname: yazi
-  binnames:
-    - yazi
-    - yazi-debuginfo
-    - yazi-debugsource
-  visiblename: yazi
-  version: 26.1.22
-  origversion: 26.1.22-1
-  status: outdated
-  summary: Blazing fast terminal file manager
-  maintainers:
-    - a.proklov@rosa.ru
-  licenses:
-    - MIT
-  categories:
-    - Development/Other
 - repo: scoop
   subrepo: main
   binname: yazi
