@@ -1,25 +1,15 @@
-- repo: artix
-  subrepo: world
-  srcname: yazi
+- repo: pkgsrc_current
+  srcname: sysutils/yazi
   binname: yazi
-  visiblename: yazi
+  visiblename: sysutils/yazi
   version: 26.9.1
-  origversion: 26.9.1-2
+  origversion: null
   status: newest
-  summary: Blazing fast terminal file manager written in Rust, based on async I/O
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: yazi
-  binname: yazi
-  visiblename: yazi
-  version: 26.9.1
-  origversion: 26.9.1-r0
-  status: newest
-  summary: Terminal file manager
-  licenses:
-    - MIT
+  summary: Blazing fast terminal file manager
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - sysutils
 - repo: aerynos
   srcname: yazi
   visiblename: yazi
@@ -42,174 +32,182 @@
     - matthias@ahouansou.cz
   licenses:
     - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: yazi
-  binname: yazi-bash-completion
-  visiblename: yazi-bash-completion
-  version: 25.5.31
-  origversion: 25.5.31-r0
-  status: outdated
-  summary: Bash completions for yazi
-  maintainers:
-    - matthias@ahouansou.cz
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: yazi
-  binname: yazi-cli
-  visiblename: yazi-cli
-  version: 25.5.31
-  origversion: 25.5.31-r0
-  status: outdated
-  summary: Blazing fast terminal file manager written in Rust, based on async I/O - CLI
-  maintainers:
-    - matthias@ahouansou.cz
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: yazi
-  binname: yazi-doc
-  visiblename: yazi-doc
-  version: 25.5.31
-  origversion: 25.5.31-r0
-  status: outdated
-  summary: Blazing fast terminal file manager written in Rust, based on async I/O (documentation)
-  maintainers:
-    - matthias@ahouansou.cz
-  licenses:
-    - MIT
-- repo: alpine_3_22
+- repo: alpine_edge
   subrepo: community
   srcname: yazi
   binname: yazi-fish-completion
   visiblename: yazi-fish-completion
-  version: 25.5.31
-  origversion: 25.5.31-r0
-  status: outdated
+  version: 26.9.1
+  origversion: 26.9.1-r0
+  status: newest
   summary: Fish completions for yazi
-  maintainers:
-    - matthias@ahouansou.cz
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: yazi
-  binname: yazi-zsh-completion
-  visiblename: yazi-zsh-completion
-  version: 25.5.31
-  origversion: 25.5.31-r0
-  status: outdated
-  summary: Zsh completions for yazi
-  maintainers:
-    - matthias@ahouansou.cz
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: yazi
-  binname: yazi
-  visiblename: yazi
-  version: 25.5.31
-  origversion: 25.5.31-r0
-  status: outdated
-  summary: Blazing fast terminal file manager written in Rust, based on async I/O
-  maintainers:
-    - matthias@ahouansou.cz
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: yazi
-  binname: yazi-bash-completion
-  visiblename: yazi-bash-completion
-  version: 25.5.31
-  origversion: 25.5.31-r0
-  status: outdated
-  summary: Bash completions for yazi
-  maintainers:
-    - matthias@ahouansou.cz
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: yazi
-  binname: yazi-cli
-  visiblename: yazi-cli
-  version: 25.5.31
-  origversion: 25.5.31-r0
-  status: outdated
-  summary: Blazing fast terminal file manager written in Rust, based on async I/O - CLI
-  maintainers:
-    - matthias@ahouansou.cz
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: yazi
-  binname: yazi-doc
-  visiblename: yazi-doc
-  version: 25.5.31
-  origversion: 25.5.31-r0
-  status: outdated
-  summary: Blazing fast terminal file manager written in Rust, based on async I/O (documentation)
-  maintainers:
-    - matthias@ahouansou.cz
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: yazi
-  binname: yazi-fish-completion
-  visiblename: yazi-fish-completion
-  version: 25.5.31
-  origversion: 25.5.31-r0
-  status: outdated
-  summary: Fish completions for yazi
-  maintainers:
-    - matthias@ahouansou.cz
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: yazi
-  binname: yazi-zsh-completion
-  visiblename: yazi-zsh-completion
-  version: 25.5.31
-  origversion: 25.5.31-r0
-  status: outdated
-  summary: Zsh completions for yazi
-  maintainers:
-    - matthias@ahouansou.cz
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: yazi
-  binname: yazi
-  visiblename: yazi
-  version: 26.5.6
-  origversion: 26.5.6-r0
-  status: outdated
-  summary: Blazing fast terminal file manager written in Rust, based on async I/O
   maintainers:
     - hannes@hannesbraun.net
   licenses:
     - MIT
-- repo: pkgsrc_current
-  srcname: sysutils/yazi
+- repo: alpine_3_22
+  subrepo: community
+  srcname: yazi
+  binname: yazi-bash-completion
+  visiblename: yazi-bash-completion
+  version: 25.5.31
+  origversion: 25.5.31-r0
+  status: outdated
+  summary: Bash completions for yazi
+  maintainers:
+    - matthias@ahouansou.cz
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: yazi
+  binname: yazi-cli
+  visiblename: yazi-cli
+  version: 25.5.31
+  origversion: 25.5.31-r0
+  status: outdated
+  summary: Blazing fast terminal file manager written in Rust, based on async I/O - CLI
+  maintainers:
+    - matthias@ahouansou.cz
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: yazi
+  binname: yazi-doc
+  visiblename: yazi-doc
+  version: 25.5.31
+  origversion: 25.5.31-r0
+  status: outdated
+  summary: Blazing fast terminal file manager written in Rust, based on async I/O (documentation)
+  maintainers:
+    - matthias@ahouansou.cz
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: yazi
+  binname: yazi-fish-completion
+  visiblename: yazi-fish-completion
+  version: 25.5.31
+  origversion: 25.5.31-r0
+  status: outdated
+  summary: Fish completions for yazi
+  maintainers:
+    - matthias@ahouansou.cz
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: yazi
+  binname: yazi-zsh-completion
+  visiblename: yazi-zsh-completion
+  version: 25.5.31
+  origversion: 25.5.31-r0
+  status: outdated
+  summary: Zsh completions for yazi
+  maintainers:
+    - matthias@ahouansou.cz
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: yazi
   binname: yazi
-  visiblename: sysutils/yazi
-  version: 26.9.1
+  visiblename: yazi
+  version: 25.5.31
+  origversion: 25.5.31-r0
+  status: outdated
+  summary: Blazing fast terminal file manager written in Rust, based on async I/O
+  maintainers:
+    - matthias@ahouansou.cz
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: yazi
+  binname: yazi-bash-completion
+  visiblename: yazi-bash-completion
+  version: 25.5.31
+  origversion: 25.5.31-r0
+  status: outdated
+  summary: Bash completions for yazi
+  maintainers:
+    - matthias@ahouansou.cz
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: yazi
+  binname: yazi-cli
+  visiblename: yazi-cli
+  version: 25.5.31
+  origversion: 25.5.31-r0
+  status: outdated
+  summary: Blazing fast terminal file manager written in Rust, based on async I/O - CLI
+  maintainers:
+    - matthias@ahouansou.cz
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: yazi
+  binname: yazi-doc
+  visiblename: yazi-doc
+  version: 25.5.31
+  origversion: 25.5.31-r0
+  status: outdated
+  summary: Blazing fast terminal file manager written in Rust, based on async I/O (documentation)
+  maintainers:
+    - matthias@ahouansou.cz
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: yazi
+  binname: yazi-fish-completion
+  visiblename: yazi-fish-completion
+  version: 25.5.31
+  origversion: 25.5.31-r0
+  status: outdated
+  summary: Fish completions for yazi
+  maintainers:
+    - matthias@ahouansou.cz
+  licenses:
+    - MIT
+- repo: crates_io
+  srcname: yazi-fm
+  visiblename: yazi-fm
+  version: 26.5.6
   origversion: null
-  status: newest
-  summary: Blazing fast terminal file manager
+  status: outdated
+  summary: Yazi file manager
+- repo: alpine_3_23
+  subrepo: community
+  srcname: yazi
+  binname: yazi-zsh-completion
+  visiblename: yazi-zsh-completion
+  version: 25.5.31
+  origversion: 25.5.31-r0
+  status: outdated
+  summary: Zsh completions for yazi
   maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - sysutils
+    - matthias@ahouansou.cz
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: yazi
+  binname: yazi
+  visiblename: yazi
+  version: 26.5.6
+  origversion: 26.5.6-r0
+  status: outdated
+  summary: Blazing fast terminal file manager written in Rust, based on async I/O
+  maintainers:
+    - hannes@hannesbraun.net
+  licenses:
+    - MIT
 - repo: alpine_3_24
   subrepo: community
   srcname: yazi
@@ -323,19 +321,6 @@
   origversion: 26.9.1-r0
   status: newest
   summary: Blazing fast terminal file manager written in Rust, based on async I/O (documentation)
-  maintainers:
-    - hannes@hannesbraun.net
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: yazi
-  binname: yazi-fish-completion
-  visiblename: yazi-fish-completion
-  version: 26.9.1
-  origversion: 26.9.1-r0
-  status: newest
-  summary: Fish completions for yazi
   maintainers:
     - hannes@hannesbraun.net
   licenses:
@@ -426,6 +411,28 @@
     - xiota@aur
   licenses:
     - MIT
+- repo: artix
+  subrepo: world
+  srcname: yazi
+  binname: yazi
+  visiblename: yazi
+  version: 26.9.1
+  origversion: 26.9.1-2
+  status: newest
+  summary: Blazing fast terminal file manager written in Rust, based on async I/O
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: yazi
+  binname: yazi
+  visiblename: yazi
+  version: 26.9.1
+  origversion: 26.9.1-r0
+  status: newest
+  summary: Terminal file manager
+  licenses:
+    - MIT
 - repo: chimera
   subrepo: user
   srcname: yazi
@@ -488,31 +495,6 @@
   origversion: null
   status: newest
   summary: "\U0001F4A5 Blazing fast terminal file manager written in Rust, based on async I/O."
-- repo: crates_io
-  srcname: yazi-fm
-  visiblename: yazi-fm
-  version: 26.5.6
-  origversion: null
-  status: outdated
-  summary: Yazi file manager
-- repo: rosa_13
-  subrepo: contrib/release
-  srcname: yazi
-  binnames:
-    - yazi
-    - yazi-debuginfo
-    - yazi-debugsource
-  visiblename: yazi
-  version: 26.1.22
-  origversion: 26.1.22-1
-  status: outdated
-  summary: Blazing fast terminal file manager
-  maintainers:
-    - a.proklov@rosa.ru
-  licenses:
-    - MIT
-  categories:
-    - Development/Other
 - repo: freebsd
   srcname: sysutils/yazi
   binname: yazi
@@ -1055,8 +1037,8 @@
   srcname: yazi-git
   binname: yazi-git
   visiblename: yazi-git
-  version: 606096f6
-  origversion: 606096f6-1
+  version: b4f0d123
+  origversion: b4f0d123-1
   status: rolling
   summary: Blazing fast terminal file manager written in Rust
 - repo: parabola
@@ -1094,6 +1076,24 @@
     - pkgsrc-users@netbsd.org
   categories:
     - sysutils
+- repo: rosa_13
+  subrepo: contrib/release
+  srcname: yazi
+  binnames:
+    - yazi
+    - yazi-debuginfo
+    - yazi-debugsource
+  visiblename: yazi
+  version: 26.1.22
+  origversion: 26.1.22-1
+  status: outdated
+  summary: Blazing fast terminal file manager
+  maintainers:
+    - a.proklov@rosa.ru
+  licenses:
+    - MIT
+  categories:
+    - Development/Other
 - repo: scoop
   subrepo: main
   binname: yazi
@@ -1145,9 +1145,9 @@
   srcname: bin/yazi/unwrap
   binname: bin/yazi
   visiblename: bin/yazi
-  version: 26.8.15
+  version: 26.9.1
   origversion: null
-  status: outdated
+  status: newest
   maintainers:
     - anton@samokhvalov.xyz
   categories:
