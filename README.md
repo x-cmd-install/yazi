@@ -14,11 +14,11 @@ x install yazi
 
 ## Code insight
 
-Total: **75,542** lines of code across **1499** files in the top 5 languages.
+Total: **75,543** lines of code across **1499** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 67,521 | 1,091 | 13,444 | 1393 |
+| Rust | 67,522 | 1,091 | 13,444 | 1393 |
 | Lua | 3,916 | 93 | 690 | 60 |
 | Toml | 3,452 | 253 | 434 | 40 |
 | Nix | 264 | 3 | 36 | 4 |
@@ -33,12 +33,12 @@ Total: **75,542** lines of code across **1499** files in the top 5 languages.
 ## Release
 
 - **Latest**: `nightly` (2026-09-01)
-- **Last commit**: 2026-11-04
+- **Last commit**: 2026-11-05
 - **Assets in release**: 17
 
 ## Popularity
 
-- **Stars**: 43,238 · **Forks**: 1,059 · **Open issues**: 2,051 · **Contributors**: 185
+- **Stars**: 43,253 · **Forks**: 1,059 · **Open issues**: 2,051 · **Contributors**: 185
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **75,542** lines of code across **1499** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 0 | 15 | 1 | 38 | 4 | 17 |
-| last60d | 2026-09-06 | 0 | 37 | 1 | 63 | 6 | 40 |
-| 90d | 2026-08-07 | 2 | 73 | 2 | 116 | 7 | 80 |
-| last180d | 2026-05-09 | 2 | 149 | 6 | 231 | 17 | 159 |
-| 360d | 2025-11-10 | 6 | 314 | 8 | 516 | 28 | 334 |
-| last720d | 2024-11-15 | 16 | 714 | 13 | 1139 | 39 | 745 |
+| 30d | 2026-10-07 | 0 | 15 | 1 | 37 | 4 | 17 |
+| last60d | 2026-09-07 | 0 | 37 | 1 | 60 | 6 | 40 |
+| 90d | 2026-08-08 | 2 | 72 | 2 | 116 | 7 | 80 |
+| last180d | 2026-05-10 | 2 | 149 | 6 | 229 | 17 | 159 |
+| 360d | 2025-11-11 | 6 | 314 | 8 | 516 | 28 | 334 |
+| last720d | 2024-11-16 | 16 | 713 | 13 | 1137 | 39 | 745 |
 
 ## Release assets
 
@@ -99,4 +99,4 @@ Install metadata for yazi lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T07:52:01Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T07:52:59Z._
