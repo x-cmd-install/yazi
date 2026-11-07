@@ -1,20 +1,62 @@
-- repo: pacstall
-  srcname: yazi-git
-  binname: yazi-git
-  visiblename: yazi-git
-  version: 6882e1ac
-  origversion: 6882e1ac-1
-  status: rolling
-  summary: Blazing fast terminal file manager written in Rust
-- repo: parabola
-  subrepo: extra
-  srcname: yazi
+- repo: chocolatey
   binname: yazi
-  visiblename: yazi
+  visiblename: Yazi - ⚡️ Blazing Fast Terminal File Manager
   version: 26.9.1
-  origversion: 26.9.1-2
+  origversion: null
   status: newest
-  summary: Blazing fast terminal file manager written in Rust, based on async I/O
+  summary: "\U0001F4A5 Blazing fast terminal file manager written in Rust, based on async I/O."
+- repo: crates_io
+  srcname: yazi-fm
+  visiblename: yazi-fm
+  version: 26.5.6
+  origversion: null
+  status: outdated
+  summary: Yazi file manager
+- repo: pkgsrc_2026_2
+  srcname: sysutils/yazi
+  binname: yazi
+  visiblename: sysutils/yazi
+  version: 26.5.6
+  origversion: null
+  status: outdated
+  summary: Blazing fast terminal file manager
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - sysutils
+- repo: pkgsrc_2026_3
+  srcname: sysutils/yazi
+  binname: yazi
+  visiblename: sysutils/yazi
+  version: 26.9.1
+  origversion: null
+  status: newest
+  summary: Blazing fast terminal file manager
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - sysutils
+- repo: pkgsrc_current
+  srcname: sysutils/yazi
+  binname: yazi
+  visiblename: sysutils/yazi
+  version: 26.9.1
+  origversion: null
+  status: newest
+  summary: Blazing fast terminal file manager
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - sysutils
+- repo: chimera
+  subrepo: user
+  srcname: yazi
+  binname: yazi-nucomp
+  visiblename: yazi-nucomp
+  version: 26.9.1
+  origversion: 26.9.1-r0
+  status: newest
+  summary: Terminal file manager (nu completions)
   licenses:
     - MIT
 - repo: aerynos
@@ -208,6 +250,17 @@
     - hannes@hannesbraun.net
   licenses:
     - MIT
+- repo: chimera
+  subrepo: user
+  srcname: yazi
+  binname: yazi-zshcomp
+  visiblename: yazi-zshcomp
+  version: 26.9.1
+  origversion: 26.9.1-r0
+  status: newest
+  summary: Terminal file manager (zsh completions)
+  licenses:
+    - MIT
 - repo: alpine_3_24
   subrepo: community
   srcname: yazi
@@ -260,6 +313,17 @@
     - hannes@hannesbraun.net
   licenses:
     - MIT
+- repo: stalix
+  srcname: bin/yazi/unwrap
+  binname: bin/yazi
+  visiblename: bin/yazi
+  version: 26.9.1
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: alpine_edge
   subrepo: community
   srcname: yazi
@@ -284,17 +348,6 @@
   summary: Bash completions for yazi
   maintainers:
     - hannes@hannesbraun.net
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: yazi
-  binname: yazi-fishcomp
-  visiblename: yazi-fishcomp
-  version: 26.9.1
-  origversion: 26.9.1-r0
-  status: newest
-  summary: Terminal file manager (fish completions)
   licenses:
     - MIT
 - repo: alpine_edge
@@ -469,39 +522,14 @@
 - repo: chimera
   subrepo: user
   srcname: yazi
-  binname: yazi-nucomp
-  visiblename: yazi-nucomp
+  binname: yazi-fishcomp
+  visiblename: yazi-fishcomp
   version: 26.9.1
   origversion: 26.9.1-r0
   status: newest
-  summary: Terminal file manager (nu completions)
+  summary: Terminal file manager (fish completions)
   licenses:
     - MIT
-- repo: chimera
-  subrepo: user
-  srcname: yazi
-  binname: yazi-zshcomp
-  visiblename: yazi-zshcomp
-  version: 26.9.1
-  origversion: 26.9.1-r0
-  status: newest
-  summary: Terminal file manager (zsh completions)
-  licenses:
-    - MIT
-- repo: chocolatey
-  binname: yazi
-  visiblename: Yazi - ⚡️ Blazing Fast Terminal File Manager
-  version: 26.9.1
-  origversion: null
-  status: newest
-  summary: "\U0001F4A5 Blazing fast terminal file manager written in Rust, based on async I/O."
-- repo: crates_io
-  srcname: yazi-fm
-  visiblename: yazi-fm
-  version: 26.5.6
-  origversion: null
-  status: outdated
-  summary: Yazi file manager
 - repo: freebsd
   srcname: sysutils/yazi
   binname: yazi
@@ -762,6 +790,28 @@
     - MIT
   categories:
     - sysutils
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: yazi
+  binname: yazi
+  visiblename: yazi
+  version: 26.9.1
+  origversion: 26.9.1-2
+  status: newest
+  summary: Blazing fast terminal file manager written in Rust, based on async I/O
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: yazi
+  binname: yazi
+  visiblename: yazi
+  version: 26.9.1
+  origversion: 26.9.1-2
+  status: newest
+  summary: Blazing fast terminal file manager written in Rust, based on async I/O
+  licenses:
+    - MIT
 - repo: manjaro_unstable
   subrepo: extra
   srcname: yazi
@@ -1040,42 +1090,25 @@
     - MIT
   categories:
     - Productivity/Text/Utilities
-- repo: pkgsrc_2026_2
-  srcname: sysutils/yazi
+- repo: pacstall
+  srcname: yazi-git
+  binname: yazi-git
+  visiblename: yazi-git
+  version: 6882e1ac
+  origversion: 6882e1ac-1
+  status: rolling
+  summary: Blazing fast terminal file manager written in Rust
+- repo: parabola
+  subrepo: extra
+  srcname: yazi
   binname: yazi
-  visiblename: sysutils/yazi
-  version: 26.5.6
-  origversion: null
-  status: outdated
-  summary: Blazing fast terminal file manager
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - sysutils
-- repo: pkgsrc_2026_3
-  srcname: sysutils/yazi
-  binname: yazi
-  visiblename: sysutils/yazi
+  visiblename: yazi
   version: 26.9.1
-  origversion: null
+  origversion: 26.9.1-2
   status: newest
-  summary: Blazing fast terminal file manager
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - sysutils
-- repo: pkgsrc_current
-  srcname: sysutils/yazi
-  binname: yazi
-  visiblename: sysutils/yazi
-  version: 26.9.1
-  origversion: null
-  status: newest
-  summary: Blazing fast terminal file manager
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - sysutils
+  summary: Blazing fast terminal file manager written in Rust, based on async I/O
+  licenses:
+    - MIT
 - repo: rosa_13
   subrepo: contrib/release
   srcname: yazi
@@ -1141,17 +1174,6 @@
     - MIT
   categories:
     - debug
-- repo: stalix
-  srcname: bin/yazi/unwrap
-  binname: bin/yazi
-  visiblename: bin/yazi
-  version: 26.9.1
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
 - repo: stalix_dev
   srcname: bin/yazi/unwrap
   binname: bin/yazi
@@ -1186,20 +1208,6 @@
     - MIT
   categories:
     - extra/tool
-- repo: terra_rawhide
-  srcname: yazi
-  binname: yazi-debugsource
-  visiblename: yazi-debugsource
-  version: 26.9.1
-  origversion: 26.9.1-1.fcrawhide
-  status: newest
-  summary: Debug sources for package yazi
-  maintainers:
-    - owen@fyralabs.com
-  licenses:
-    - MIT AND (MIT OR Apache-2.0) AND NCSA AND Unicode-3.0 AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND ISC AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND BSD-2-Clause AND BSD-3-Clause AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-3-Clause OR Apache-2.0) AND BSL-1.0 AND CC0-1.0 AND (CC0-1.0 OR Apache-2.0) AND ISC AND (MIT OR Apache-2.0 OR BSD-1-Clause) AND (MIT OR Apache-2.0 OR CC0-1.0) AND MIT OR Apache-2.0 OR LGPL-2.1-or-later) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
-  categories:
-    - Development/Debug
 - repo: termux
   srcname: yazi
   binname: yazi
@@ -1260,6 +1268,20 @@
   origversion: 26.9.1-1.fcrawhide
   status: newest
   summary: Debug information for package yazi
+  maintainers:
+    - owen@fyralabs.com
+  licenses:
+    - MIT AND (MIT OR Apache-2.0) AND NCSA AND Unicode-3.0 AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND ISC AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND BSD-2-Clause AND BSD-3-Clause AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-3-Clause OR Apache-2.0) AND BSL-1.0 AND CC0-1.0 AND (CC0-1.0 OR Apache-2.0) AND ISC AND (MIT OR Apache-2.0 OR BSD-1-Clause) AND (MIT OR Apache-2.0 OR CC0-1.0) AND MIT OR Apache-2.0 OR LGPL-2.1-or-later) AND (MIT OR Apache-2.0 OR Zlib) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND (Unlicense OR MIT) AND Zlib AND (Zlib OR Apache-2.0 OR MIT)
+  categories:
+    - Development/Debug
+- repo: terra_rawhide
+  srcname: yazi
+  binname: yazi-debugsource
+  visiblename: yazi-debugsource
+  version: 26.9.1
+  origversion: 26.9.1-1.fcrawhide
+  status: newest
+  summary: Debug sources for package yazi
   maintainers:
     - owen@fyralabs.com
   licenses:
