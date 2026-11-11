@@ -38,22 +38,22 @@ Total: **76,094** lines of code across **1522** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 43,328 · **Forks**: 1,060 · **Open issues**: 2,053 · **Contributors**: 185
+- **Stars**: 43,348 · **Forks**: 1,059 · **Open issues**: 2,054 · **Contributors**: 185
 
 ## Totals (cumulative)
 
-- **Releases**: 33 · **Merged PRs**: 1333 · **Open PRs**: 16 · **Closed issues**: 2003 · **Open issues**: 50 · **Commits**: 1569
+- **Releases**: 33 · **Merged PRs**: 1333 · **Open PRs**: 16 · **Closed issues**: 2004 · **Open issues**: 50 · **Commits**: 1569
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 0 | 14 | 2 | 32 | 3 | 16 |
-| last60d | 2026-09-11 | 0 | 34 | 2 | 57 | 7 | 38 |
-| 90d | 2026-08-12 | 2 | 70 | 3 | 107 | 8 | 69 |
-| last180d | 2026-05-14 | 2 | 150 | 7 | 227 | 18 | 160 |
-| 360d | 2025-11-15 | 6 | 316 | 9 | 511 | 29 | 333 |
-| last720d | 2024-11-20 | 16 | 712 | 14 | 1131 | 40 | 746 |
+| 30d | 2026-10-12 | 0 | 14 | 2 | 30 | 3 | 16 |
+| last60d | 2026-09-12 | 0 | 34 | 2 | 55 | 6 | 38 |
+| 90d | 2026-08-13 | 2 | 67 | 3 | 102 | 8 | 69 |
+| last180d | 2026-05-15 | 2 | 150 | 7 | 227 | 18 | 160 |
+| 360d | 2025-11-16 | 6 | 316 | 9 | 512 | 29 | 333 |
+| last720d | 2024-11-21 | 16 | 710 | 14 | 1127 | 40 | 744 |
 
 ## Release assets
 
@@ -79,7 +79,7 @@ Total: **76,094** lines of code across **1522** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **96** distros on [repology.org](https://repology.org/project/yazi). **51** are ✅ on the latest upstream release, **36** are ⚠️ on an older version.
+Reported by **96** distros on [repology.org](https://repology.org/project/yazi). **52** are ✅ on the latest upstream release, **35** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -99,4 +99,4 @@ Install metadata for yazi lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T08:48:46Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T07:19:28Z._
