@@ -1,36 +1,10 @@
-- repo: chimera
-  subrepo: user
+- repo: homebrew
   srcname: yazi
-  binname: yazi-bashcomp
-  visiblename: yazi-bashcomp
-  version: 26.9.1
-  origversion: 26.9.1-r0
-  status: newest
-  summary: Terminal file manager (bash completions)
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: yazi
-  binname: yazi
   visiblename: yazi
-  version: 26.9.1
-  origversion: 26.9.1-r0
-  status: newest
-  summary: Terminal file manager
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: yazi
-  binname: yazi-doc
-  visiblename: yazi-doc
-  version: 26.9.1
-  origversion: 26.9.1-r0
-  status: newest
-  summary: Terminal file manager (documentation)
-  licenses:
-    - MIT
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Blazing fast terminal file manager written in Rust, based on async I/O
 - repo: aerynos
   srcname: yazi
   visiblename: yazi
@@ -222,24 +196,6 @@
     - hannes@hannesbraun.net
   licenses:
     - MIT
-- repo: rosa_13
-  subrepo: contrib/release
-  srcname: yazi
-  binnames:
-    - yazi
-    - yazi-debuginfo
-    - yazi-debugsource
-  visiblename: yazi
-  version: 26.1.22
-  origversion: 26.1.22-1
-  status: outdated
-  summary: Blazing fast terminal file manager
-  maintainers:
-    - a.proklov@rosa.ru
-  licenses:
-    - MIT
-  categories:
-    - Development/Other
 - repo: alpine_3_24
   subrepo: community
   srcname: yazi
@@ -279,6 +235,17 @@
     - hannes@hannesbraun.net
   licenses:
     - MIT
+- repo: stalix
+  srcname: bin/yazi/unwrap
+  binname: bin/yazi
+  visiblename: bin/yazi
+  version: 26.9.1
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: alpine_3_24
   subrepo: community
   srcname: yazi
@@ -305,6 +272,13 @@
     - hannes@hannesbraun.net
   licenses:
     - MIT
+- repo: homebrew
+  srcname: yazi
+  visiblename: yazi
+  version: 26.9.1
+  origversion: null
+  status: newest
+  summary: Blazing fast terminal file manager written in Rust, based on async I/O
 - repo: alpine_edge
   subrepo: community
   srcname: yazi
@@ -457,6 +431,39 @@
 - repo: chimera
   subrepo: user
   srcname: yazi
+  binname: yazi
+  visiblename: yazi
+  version: 26.9.1
+  origversion: 26.9.1-r0
+  status: newest
+  summary: Terminal file manager
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: yazi
+  binname: yazi-bashcomp
+  visiblename: yazi-bashcomp
+  version: 26.9.1
+  origversion: 26.9.1-r0
+  status: newest
+  summary: Terminal file manager (bash completions)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: yazi
+  binname: yazi-doc
+  visiblename: yazi-doc
+  version: 26.9.1
+  origversion: 26.9.1-r0
+  status: newest
+  summary: Terminal file manager (documentation)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: yazi
   binname: yazi-fishcomp
   visiblename: yazi-fishcomp
   version: 26.9.1
@@ -513,22 +520,6 @@
     - nivit@freebsd.org
   categories:
     - sysutils
-- repo: nix_stable_25_11
-  srcname: yazi
-  visiblename: yazi
-  version: 25.5.31
-  origversion: null
-  status: outdated
-  summary: Blazing fast terminal file manager written in Rust, based on async I/O
-  maintainers:
-    - fedi.jamoussi@protonmail.ch
-    - khaneliman12@gmail.com
-    - linsui555@gmail.com
-    - mail@beyermatthias.de
-    - uncenter@uncenter.dev
-    - i@xyenon.bid
-  licenses:
-    - MIT
 - repo: gentoo_ovl_guru
   srcname: app-misc/yazi
   visiblename: app-misc/yazi
@@ -583,20 +574,6 @@
   origversion: null
   status: outdated
   summary: Terminal file manager based on async I/O
-- repo: homebrew
-  srcname: yazi
-  visiblename: yazi
-  version: 26.9.1
-  origversion: null
-  status: newest
-  summary: Blazing fast terminal file manager written in Rust, based on async I/O
-- repo: homebrew
-  srcname: yazi
-  visiblename: yazi
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Blazing fast terminal file manager written in Rust, based on async I/O
 - repo: liguros_stable
   srcname: app-misc/yazi
   visiblename: app-misc/yazi
@@ -740,22 +717,6 @@
     - ZLIB
   categories:
     - app-misc
-- repo: nix_stable_25_11
-  srcname: yazi-unwrapped
-  visiblename: yazi
-  version: 25.5.31
-  origversion: null
-  status: outdated
-  summary: Blazing fast terminal file manager written in Rust, based on async I/O
-  maintainers:
-    - fedi.jamoussi@protonmail.ch
-    - khaneliman12@gmail.com
-    - linsui555@gmail.com
-    - mail@beyermatthias.de
-    - uncenter@uncenter.dev
-    - i@xyenon.bid
-  licenses:
-    - MIT
 - repo: liguros_develop
   srcname: app-misc/yazi
   visiblename: app-misc/yazi
@@ -946,6 +907,38 @@
     - i@xyenon.bid
   licenses:
     - MIT
+- repo: nix_stable_25_11
+  srcname: yazi
+  visiblename: yazi
+  version: 25.5.31
+  origversion: null
+  status: outdated
+  summary: Blazing fast terminal file manager written in Rust, based on async I/O
+  maintainers:
+    - fedi.jamoussi@protonmail.ch
+    - khaneliman12@gmail.com
+    - linsui555@gmail.com
+    - mail@beyermatthias.de
+    - uncenter@uncenter.dev
+    - i@xyenon.bid
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: yazi-unwrapped
+  visiblename: yazi
+  version: 25.5.31
+  origversion: null
+  status: outdated
+  summary: Blazing fast terminal file manager written in Rust, based on async I/O
+  maintainers:
+    - fedi.jamoussi@protonmail.ch
+    - khaneliman12@gmail.com
+    - linsui555@gmail.com
+    - mail@beyermatthias.de
+    - uncenter@uncenter.dev
+    - i@xyenon.bid
+  licenses:
+    - MIT
 - repo: nix_stable_26_05
   srcname: yazi
   visiblename: yazi
@@ -1116,6 +1109,24 @@
     - pkgsrc-users@netbsd.org
   categories:
     - sysutils
+- repo: rosa_13
+  subrepo: contrib/release
+  srcname: yazi
+  binnames:
+    - yazi
+    - yazi-debuginfo
+    - yazi-debugsource
+  visiblename: yazi
+  version: 26.1.22
+  origversion: 26.1.22-1
+  status: outdated
+  summary: Blazing fast terminal file manager
+  maintainers:
+    - a.proklov@rosa.ru
+  licenses:
+    - MIT
+  categories:
+    - Development/Other
 - repo: scoop
   subrepo: main
   binname: yazi
@@ -1163,17 +1174,6 @@
     - MIT
   categories:
     - debug
-- repo: stalix
-  srcname: bin/yazi/unwrap
-  binname: bin/yazi
-  visiblename: bin/yazi
-  version: 26.9.1
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
 - repo: stalix_dev
   srcname: bin/yazi/unwrap
   binname: bin/yazi
