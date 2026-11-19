@@ -38,22 +38,22 @@ Total: **76,300** lines of code across **1528** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 43,449 · **Forks**: 1,064 · **Open issues**: 2,065 · **Contributors**: 185
+- **Stars**: 43,514 · **Forks**: 1,067 · **Open issues**: 2,071 · **Contributors**: 185
 
 ## Totals (cumulative)
 
-- **Releases**: 33 · **Merged PRs**: 1335 · **Open PRs**: 18 · **Closed issues**: 2010 · **Open issues**: 55 · **Commits**: 1571
+- **Releases**: 33 · **Merged PRs**: 1335 · **Open PRs**: 19 · **Closed issues**: 2012 · **Open issues**: 59 · **Commits**: 1571
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 13 | 4 | 29 | 9 | 14 |
-| last60d | 2026-09-18 | 0 | 32 | 4 | 56 | 11 | 32 |
-| 90d | 2026-08-19 | 1 | 59 | 5 | 99 | 13 | 62 |
-| last180d | 2026-05-21 | 2 | 150 | 9 | 219 | 22 | 157 |
-| 360d | 2025-11-22 | 6 | 314 | 11 | 508 | 34 | 327 |
-| last720d | 2024-11-27 | 16 | 705 | 16 | 1125 | 45 | 735 |
+| 30d | 2026-10-20 | 0 | 12 | 5 | 30 | 13 | 14 |
+| last60d | 2026-09-20 | 0 | 30 | 5 | 56 | 15 | 32 |
+| 90d | 2026-08-21 | 1 | 57 | 6 | 100 | 17 | 62 |
+| last180d | 2026-05-23 | 2 | 148 | 10 | 220 | 26 | 157 |
+| 360d | 2025-11-24 | 6 | 309 | 12 | 509 | 38 | 327 |
+| last720d | 2024-11-29 | 16 | 704 | 17 | 1122 | 49 | 734 |
 
 ## Release assets
 
@@ -84,7 +84,7 @@ Reported by **96** distros on [repology.org](https://repology.org/project/yazi).
 | Distro | Version | Status |
 |--------|---------|--------|
 | Arch | `26.9.1` | ✅ latest |
-| Homebrew | `26.9.1` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Nix unstable | `26.9.1` | ✅ latest |
 | Void | `26.9.1` | ✅ latest |
 | Alpine edge | `26.9.1` | ✅ latest |
@@ -99,4 +99,4 @@ Install metadata for yazi lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T09:40:57Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T09:00:24Z._
